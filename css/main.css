@@ -2,6 +2,11 @@ html {
   font-family: Lora, serif;
 }
 
+body {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+}
+
 .masthead {
   background-color: #588477;
   border-bottom: 3px solid #467366;
@@ -37,11 +42,13 @@ html {
 }
 
 .banner {
-  background: url(../images/banner.jpg) no-repeat center bottom / cover;
+
 }
 
 .banner-content {
   color: #fff;
+  background-image: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 60em) {
